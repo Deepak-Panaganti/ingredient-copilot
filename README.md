@@ -68,11 +68,11 @@ No information overload.
 ## 📁 Project Structure
 
 ingredient-copilot/
-├── app.py # Main Streamlit app
-├── config.py # API key loader (ignored in GitHub)
-├── requirements.txt # Dependencies
-├── .gitignore # Security & cleanup
-└── README.md # Project documentation
+ ├── app.py # Main Streamlit app
+ ├── config.py # API key loader (ignored in GitHub)
+ ├── requirements.txt # Dependencies
+ ├── .gitignore # Security & cleanup
+ └── README.md # Project documentation
 
 yaml
 Copy code
@@ -93,6 +93,9 @@ Copy code
 ```bash
 pip install -r requirements.txt
 streamlit run app.py
+```
+
+---
 🌍 Live Demo
 👉 Deployed on Streamlit Community Cloud
 (Deployment link added after launch)
